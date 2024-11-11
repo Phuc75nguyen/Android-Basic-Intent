@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:text="Intents"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Web Page"
+        android:textSize="35dp"
+        android:onClick="Webpage"/>
+
+    <Button
+        android:id="@+id/btnMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:textSize="35dp"
+        android:onClick="sendMessage"/>
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Phone"
+        android:textSize="35dp"
+        android:onClick="callPhone"/>
+
+    <Button
+        android:id="@+id/viewContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Contact"
+        android:textSize="35dp"
+        android:onClick="viewContact"/>
+
+    <Button
+        android:id="@+id/btnEdContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Contact"
+        android:textSize="35dp"
+        android:onClick="editContact"/>
+</LinearLayout>
